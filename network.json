@@ -106,6 +106,16 @@
             ],
             "source": "Plots.R",
             "target": "boxPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "boxMurder.png"
         }
     ],
     "nodes": [
@@ -157,6 +167,6 @@
             "name": "boxMurder.png"
         }
     ],
-    "updated_at": "2018-10-25 16:54:29",
+    "updated_at": "2018-10-25 16:54:40",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
