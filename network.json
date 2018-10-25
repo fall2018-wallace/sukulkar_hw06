@@ -126,8 +126,11 @@
         },
         {
             "name": "histUrbanPop.png"
+        },
+        {
+            "name": "histRape.png"
         }
     ],
-    "updated_at": "2018-10-25 16:53:28",
+    "updated_at": "2018-10-25 16:53:41",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
