@@ -146,6 +146,16 @@
             ],
             "source": "Plots.R",
             "target": "barMurderPerStateS.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurderPerStateSF",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "barMurderPerStateSF.png"
         }
     ],
     "nodes": [
@@ -209,6 +219,6 @@
             "name": "barMurderPerStateSF.png"
         }
     ],
-    "updated_at": "2018-10-25 16:56:12",
+    "updated_at": "2018-10-25 16:56:19",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
