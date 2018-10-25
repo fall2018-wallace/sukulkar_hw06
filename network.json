@@ -76,6 +76,16 @@
             ],
             "source": "Plots.R",
             "target": "histAssault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histUrbanPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histUrbanPop.png"
         }
     ],
     "nodes": [
@@ -118,6 +128,6 @@
             "name": "histUrbanPop.png"
         }
     ],
-    "updated_at": "2018-10-25 16:53:18",
+    "updated_at": "2018-10-25 16:53:28",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
