@@ -23,8 +23,12 @@
             "assigned_to": "sukulkar",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Copy the census data",
+            "name": "CopyCensus.R"
         }
     ],
-    "updated_at": "2018-10-25 16:38:55",
+    "updated_at": "2018-10-25 16:39:57",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
