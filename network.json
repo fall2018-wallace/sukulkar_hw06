@@ -152,8 +152,11 @@
         },
         {
             "name": "boxPopulation.png"
+        },
+        {
+            "name": "boxMurder.png"
         }
     ],
-    "updated_at": "2018-10-25 16:54:10",
+    "updated_at": "2018-10-25 16:54:29",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
