@@ -35,6 +35,17 @@
             ],
             "source": "clean.R",
             "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfMerged",
+                    "output": "dfMerged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeDatasets.R",
+            "target": "Plots.R"
         }
     ],
     "nodes": [
@@ -59,10 +70,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sukulkar",
             "desc": "Plots as per homework",
-            "name": "Plots.R"
+            "name": "Plots.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:49:39",
+    "updated_at": "2018-10-25 16:50:43",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
