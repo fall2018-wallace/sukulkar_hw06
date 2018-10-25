@@ -87,8 +87,11 @@
         },
         {
             "name": "histPopulation.png"
+        },
+        {
+            "name": "histMurder.png"
         }
     ],
-    "updated_at": "2018-10-25 16:52:00",
+    "updated_at": "2018-10-25 16:52:28",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
