@@ -1,0 +1,237 @@
+{
+    "collaborators": [
+        "sukulkar"
+    ],
+    "created_at": "2018-10-25 16:37:13",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CopyCensus.R",
+            "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfClean",
+                    "output": "dfClean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfMerged",
+                    "output": "dfMerged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeDatasets.R",
+            "target": "Plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histAssault",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histAssault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histUrbanPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histUrbanPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histRape",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histRape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "boxPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "boxMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurderPerState",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "barMurderPerState.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurderPerStateR",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "barMurderPerStateR.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurderPerStateS",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "barMurderPerStateS.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurderPerStateSF",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "barMurderPerStateSF.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "scatterPlot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Copy the census data",
+            "name": "CopyCensus.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Merges datasets census and USArrests",
+            "name": "MergeDatasets.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Plots as per homework",
+            "name": "Plots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histPopulation.png"
+        },
+        {
+            "name": "histMurder.png"
+        },
+        {
+            "name": "histAssault.png"
+        },
+        {
+            "name": "histUrbanPop.png"
+        },
+        {
+            "name": "histRape.png"
+        },
+        {
+            "name": "boxPopulation.png"
+        },
+        {
+            "name": "boxMurder.png"
+        },
+        {
+            "name": "barMurderPerState.png"
+        },
+        {
+            "name": "barMurderPerStateR.png"
+        },
+        {
+            "name": "barMurderPerStateS.png"
+        },
+        {
+            "name": "barMurderPerStateSF.png"
+        },
+        {
+            "name": "scatterPlot.png"
+        }
+    ],
+    "updated_at": "2018-10-25 16:56:37",
+    "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
+}
