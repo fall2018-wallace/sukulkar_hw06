@@ -46,6 +46,16 @@
             ],
             "source": "MergeDatasets.R",
             "target": "Plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histPopulation.png"
         }
     ],
     "nodes": [
@@ -79,6 +89,6 @@
             "name": "histPopulation.png"
         }
     ],
-    "updated_at": "2018-10-25 16:51:42",
+    "updated_at": "2018-10-25 16:52:00",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
