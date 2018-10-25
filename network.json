@@ -74,8 +74,11 @@
             "desc": "Plots as per homework",
             "name": "Plots.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "histPopulation.png"
         }
     ],
-    "updated_at": "2018-10-25 16:50:43",
+    "updated_at": "2018-10-25 16:51:42",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
