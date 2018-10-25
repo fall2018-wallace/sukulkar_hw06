@@ -24,6 +24,17 @@
             ],
             "source": "CopyCensus.R",
             "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfClean",
+                    "output": "dfClean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeDatasets.R"
         }
     ],
     "nodes": [
@@ -46,6 +57,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:45:17",
+    "updated_at": "2018-10-25 16:45:40",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
