@@ -27,8 +27,12 @@
         {
             "desc": "Copy the census data",
             "name": "CopyCensus.R"
+        },
+        {
+            "desc": "Merges datasets census and USArrests",
+            "name": "MergeDatasets.R"
         }
     ],
-    "updated_at": "2018-10-25 16:39:57",
+    "updated_at": "2018-10-25 16:44:41",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
