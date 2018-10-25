@@ -191,8 +191,11 @@
         },
         {
             "name": "barMurderPerStateR.png"
+        },
+        {
+            "name": "barMurderPerStateS.png"
         }
     ],
-    "updated_at": "2018-10-25 16:55:36",
+    "updated_at": "2018-10-25 16:55:50",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
