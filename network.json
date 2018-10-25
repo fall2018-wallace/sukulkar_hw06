@@ -66,6 +66,16 @@
             ],
             "source": "Plots.R",
             "target": "histMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histAssault",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "histAssault.png"
         }
     ],
     "nodes": [
@@ -105,6 +115,6 @@
             "name": "histAssault.png"
         }
     ],
-    "updated_at": "2018-10-25 16:52:50",
+    "updated_at": "2018-10-25 16:52:58",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
