@@ -47,16 +47,22 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sukulkar",
             "desc": "Copy the census data",
-            "name": "CopyCensus.R"
+            "name": "CopyCensus.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "sukulkar",
             "desc": "Merges datasets census and USArrests",
             "name": "MergeDatasets.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Plots as per homework",
+            "name": "Plots.R"
         }
     ],
-    "updated_at": "2018-10-25 16:45:40",
+    "updated_at": "2018-10-25 16:49:39",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw06"
 }
