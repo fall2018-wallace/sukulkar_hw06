@@ -51,7 +51,6 @@ boxMurder
 #Number of murders per state using bar chart
 #10000 in the below is the scaling factor, to make the graph appear correctly
 dfMerged$MurderPerState <- dfMerged$population * dfMerged$Murder/10000
-View(dfMerged)
 
 #Bar chart with number of murders per state
 barMurderPerState <- ggplot(dfMerged, aes(x=stateName, y=MurderPerState))+
